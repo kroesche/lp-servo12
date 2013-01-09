@@ -2299,140 +2299,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </deviceset>
 </devicesets>
 </library>
-<library name="servoboard">
-<packages>
-<package name="PWP-R-PDSO-G14">
-<smd name="1" x="-1.95" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="2" x="-1.3" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="3" x="-0.65" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="4" x="0" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="5" x="0.65" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="6" x="1.3" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="7" x="1.95" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="14" x="-1.95" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="13" x="-1.3" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="12" x="-0.65" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="11" x="0" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="10" x="0.65" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="9" x="1.3" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="8" x="1.95" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="15" x="0" y="0" dx="5" dy="3.4" layer="1" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-1" y1="-1.15" x2="1" y2="1.15" layer="31"/>
-<rectangle x1="-1.155" y1="-1.23" x2="1.155" y2="1.23" layer="29"/>
-<wire x1="-2.55" y1="2.25" x2="2.55" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.55" y1="2.25" x2="2.55" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.55" y1="-2.25" x2="-2.55" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.55" y1="-2.25" x2="-2.55" y2="2.25" width="0.127" layer="51"/>
-<circle x="-2" y="-1.2" radius="0.282840625" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.7" x2="-2.5" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.7" x2="2.5" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-1.7" x2="2.5" y2="1.7" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="1.7" x2="-2.5" y2="1.7" width="0.2032" layer="21"/>
-<circle x="-2" y="-1.2" radius="0.22360625" width="0.2032" layer="21"/>
-<text x="-3" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.6" y="-2.3" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="MURATA4900S">
-<smd name="1" x="-4.95" y="0" dx="2.9" dy="5" layer="1"/>
-<smd name="2" x="4.95" y="0" dx="2.9" dy="5" layer="1"/>
-<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.127" layer="51"/>
-<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.127" layer="51"/>
-<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.127" layer="51"/>
-<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.127" layer="51"/>
-<wire x1="-6.1" y1="3.05" x2="-6.1" y2="6.1" width="0.2032" layer="21"/>
-<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.2032" layer="21"/>
-<wire x1="6.1" y1="6.1" x2="6.1" y2="3.05" width="0.2032" layer="21"/>
-<wire x1="6.1" y1="-3.05" x2="6.1" y2="-6.1" width="0.2032" layer="21"/>
-<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.2032" layer="21"/>
-<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="-3.05" width="0.2032" layer="21"/>
-<text x="-2.9" y="6.75" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-8.05" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TPS54526">
-<wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<pin name="VIN2" x="-15.24" y="7.62" length="middle" direction="pwr"/>
-<pin name="VIN1" x="-15.24" y="10.16" length="middle" direction="pwr"/>
-<pin name="VO" x="12.7" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VFB" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="SS" x="-15.24" y="-5.08" length="middle"/>
-<pin name="EN" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-7.62" y="-20.32" length="middle" direction="pwr" rot="R90"/>
-<pin name="PGND2" x="2.54" y="-20.32" length="middle" direction="pwr" rot="R90"/>
-<pin name="PGND1" x="5.08" y="-20.32" length="middle" direction="pwr" rot="R90"/>
-<pin name="VREG5" x="-15.24" y="2.54" length="middle"/>
-<pin name="PG" x="-15.24" y="0" length="middle"/>
-<pin name="VBST" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="SW2" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SW1" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="PAD" x="-2.54" y="-20.32" length="middle" direction="pwr" rot="R90"/>
-<text x="-4.572" y="13.716" size="1.778" layer="95">&gt;NAME</text>
-<text x="6.096" y="-18.034" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="INDUCTOR">
-<wire x1="-10.16" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="POS" x="-15.24" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="NEG" x="15.24" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<circle x="-11.938" y="1.524" radius="0.381" width="0.8128" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TPS54526">
-<gates>
-<gate name="G$1" symbol="TPS54526" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PWP" package="PWP-R-PDSO-G14">
-<connects>
-<connect gate="G$1" pin="EN" pad="7"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="PAD" pad="15"/>
-<connect gate="G$1" pin="PG" pad="6"/>
-<connect gate="G$1" pin="PGND1" pad="8"/>
-<connect gate="G$1" pin="PGND2" pad="9"/>
-<connect gate="G$1" pin="SS" pad="4"/>
-<connect gate="G$1" pin="SW1" pad="10"/>
-<connect gate="G$1" pin="SW2" pad="11"/>
-<connect gate="G$1" pin="VBST" pad="12"/>
-<connect gate="G$1" pin="VFB" pad="2"/>
-<connect gate="G$1" pin="VIN1" pad="13"/>
-<connect gate="G$1" pin="VIN2" pad="14"/>
-<connect gate="G$1" pin="VO" pad="1"/>
-<connect gate="G$1" pin="VREG5" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MURATA-4900S" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MURATA4900S">
-<connects>
-<connect gate="G$1" pin="NEG" pad="2"/>
-<connect gate="G$1" pin="POS" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -2852,6 +2718,151 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="kroesche">
+<description>Custom library used for kroesche.org projects</description>
+<packages>
+<package name="PWP-R-PDSO-G14">
+<smd name="1" x="-1.95" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-1.3" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-0.65" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="0.65" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="1.3" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="1.95" y="-2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-1.95" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-1.3" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-0.65" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="0" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="0.65" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="1.3" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="1.95" y="2.8" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="0" y="0" dx="5" dy="3.4" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-1" y1="-1.15" x2="1" y2="1.15" layer="31"/>
+<rectangle x1="-1.155" y1="-1.23" x2="1.155" y2="1.23" layer="29"/>
+<wire x1="-2.55" y1="2.25" x2="2.55" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.55" y1="2.25" x2="2.55" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="2.55" y1="-2.25" x2="-2.55" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="-2.25" x2="-2.55" y2="2.25" width="0.127" layer="51"/>
+<circle x="-2" y="-1.2" radius="0.282840625" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.7" x2="-2.5" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1.7" x2="2.5" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-1.7" x2="2.5" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="1.7" x2="-2.5" y2="1.7" width="0.2032" layer="21"/>
+<circle x="-2" y="-1.2" radius="0.22360625" width="0.2032" layer="21"/>
+<text x="-3" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.6" y="-2.3" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="VISHAY-IHLP3232DZER">
+<description>Vishay-Dale IHLP-3232DZ-11 Inductor Package</description>
+<smd name="1" x="-3.6195" y="0" dx="2.413" dy="5.334" layer="1"/>
+<smd name="2" x="3.6195" y="0" dx="2.413" dy="5.334" layer="1"/>
+<wire x1="-4.318" y1="4.064" x2="4.318" y2="4.064" width="0.127" layer="51"/>
+<wire x1="4.318" y1="4.064" x2="4.318" y2="-4.064" width="0.127" layer="51"/>
+<wire x1="4.318" y1="-4.064" x2="-4.318" y2="-4.064" width="0.127" layer="51"/>
+<wire x1="-4.318" y1="-4.064" x2="-4.318" y2="4.064" width="0.127" layer="51"/>
+<wire x1="-4.318" y1="3.048" x2="-4.318" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-4.318" y1="4.064" x2="4.318" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="4.318" y1="4.064" x2="4.318" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="4.318" y1="-3.048" x2="4.318" y2="-4.064" width="0.2032" layer="21"/>
+<wire x1="4.318" y1="-4.064" x2="-4.318" y2="-4.064" width="0.2032" layer="21"/>
+<wire x1="-4.318" y1="-4.064" x2="-4.318" y2="-3.048" width="0.2032" layer="21"/>
+<text x="-3.048" y="4.826" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-5.588" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS54526">
+<wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="VIN2" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="VIN1" x="-15.24" y="10.16" length="middle" direction="pwr"/>
+<pin name="VO" x="12.7" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VFB" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SS" x="-15.24" y="-5.08" length="middle"/>
+<pin name="EN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="PGND2" x="2.54" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="PGND1" x="5.08" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="VREG5" x="-15.24" y="2.54" length="middle"/>
+<pin name="PG" x="-15.24" y="0" length="middle"/>
+<pin name="VBST" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="SW2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SW1" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PAD" x="-2.54" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<text x="-4.572" y="13.716" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.096" y="-18.034" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="INDUCTOR">
+<wire x1="-10.16" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="POS" x="-15.24" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="NEG" x="15.24" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="-11.938" y="1.524" radius="0.381" width="0.8128" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS54526">
+<gates>
+<gate name="G$1" symbol="TPS54526" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PWP" package="PWP-R-PDSO-G14">
+<connects>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="PAD" pad="15"/>
+<connect gate="G$1" pin="PG" pad="6"/>
+<connect gate="G$1" pin="PGND1" pad="8"/>
+<connect gate="G$1" pin="PGND2" pad="9"/>
+<connect gate="G$1" pin="SS" pad="4"/>
+<connect gate="G$1" pin="SW1" pad="10"/>
+<connect gate="G$1" pin="SW2" pad="11"/>
+<connect gate="G$1" pin="VBST" pad="12"/>
+<connect gate="G$1" pin="VFB" pad="2"/>
+<connect gate="G$1" pin="VIN1" pad="13"/>
+<connect gate="G$1" pin="VIN2" pad="14"/>
+<connect gate="G$1" pin="VO" pad="1"/>
+<connect gate="G$1" pin="VREG5" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="TPS54526PWP" constant="no"/>
+<attribute name="MOUSER#" value="595-TPS54526PWP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VISHAY-IHLP-3232DZ-11" prefix="L">
+<description>Low Profile High Current IHLP Inductor from Vishay-Dale</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VISHAY-IHLP3232DZER">
+<connects>
+<connect gate="G$1" pin="NEG" pad="1"/>
+<connect gate="G$1" pin="POS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Vishay/Dale" constant="no"/>
+<attribute name="MANF#" value="IHLP3232DZERxxxM11" constant="no"/>
+<attribute name="MOUSER#" value="70-IHLP3232DZERxxxM11" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2868,9 +2879,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="X1" library="con-molex" deviceset="KK-156-2" device=""/>
+<part name="X1" library="con-molex" deviceset="KK-156-2" device="">
+<attribute name="MANF" value="Molex"/>
+<attribute name="MANF#" value="76650-0208"/>
+<attribute name="MOUSER#" value="538-76650-0208"/>
+</part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="MANF" value="Panasonic"/>
+<attribute name="MANF#" value="ERJ-6GEYJ221V"/>
+<attribute name="MOUSER#" value="667-ERJ-6GEYJ221V"/>
+</part>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
@@ -2917,8 +2936,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="U1" library="servoboard" deviceset="TPS54526" device="PWP"/>
-<part name="L1" library="servoboard" deviceset="MURATA-4900S" device="" value="3.3uH"/>
+<part name="U1" library="kroesche" deviceset="TPS54526" device="PWP"/>
+<part name="L1" library="kroesche" deviceset="VISHAY-IHLP-3232DZ-11" device="" value="3.3uH">
+<attribute name="MANF#" value="IHLP3232DZER3R3M11"/>
+<attribute name="MOUSER#" value="70-IHLP3232DZER3R3M11"/>
+</part>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A3" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22pF"/>
@@ -2931,7 +2953,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100K"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-AnalogIC" deviceset="LMV358" device=""/>
+<part name="U2" library="SparkFun-AnalogIC" deviceset="LMV358" device="">
+<attribute name="MANF" value="Texas Instruments"/>
+<attribute name="MANF#" value="LMV358QDR"/>
+<attribute name="MOUSER#" value="595-LMV358QDR"/>
+</part>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
@@ -2959,10 +2985,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="P+1" gate="1" x="104.14" y="215.9"/>
 <instance part="SUPPLY3" gate="GND" x="33.02" y="132.08"/>
 <instance part="SUPPLY4" gate="GND" x="187.96" y="147.32"/>
-<instance part="X1" gate="-1" x="38.1" y="83.82" rot="MR0"/>
-<instance part="X1" gate="-2" x="38.1" y="78.74" rot="MR0"/>
+<instance part="X1" gate="-1" x="38.1" y="78.74" rot="MR0">
+<attribute name="MANF" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANF#" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER#" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="X1" gate="-2" x="38.1" y="83.82" rot="MR0"/>
 <instance part="P+2" gate="1" x="78.74" y="149.86"/>
-<instance part="R1" gate="G$1" x="43.18" y="233.68"/>
+<instance part="R1" gate="G$1" x="43.18" y="233.68">
+<attribute name="MANF" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="STANDOFF1" gate="G$1" x="363.22" y="27.94"/>
 <instance part="STANDOFF2" gate="G$1" x="368.3" y="27.94"/>
 <instance part="STANDOFF3" gate="G$1" x="373.38" y="27.94"/>
@@ -3038,7 +3072,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R15" gate="G$1" x="68.58" y="71.12"/>
 <instance part="SUPPLY12" gate="GND" x="185.42" y="40.64"/>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="40.64"/>
-<instance part="U2" gate="G$1" x="231.14" y="165.1"/>
+<instance part="U2" gate="G$1" x="231.14" y="165.1">
+<attribute name="MANF" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U2" gate="G$2" x="281.94" y="162.56"/>
 <instance part="R16" gate="G$1" x="274.32" y="177.8" smashed="yes">
 <attribute name="NAME" x="271.526" y="179.5526" size="1.778" layer="95"/>
@@ -3343,14 +3381,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="185.42" y1="43.18" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
 <junction x="185.42" y="45.72"/>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="78.74" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="45.72"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <junction x="43.18" y="45.72"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
@@ -3663,10 +3701,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="86.36" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="81.28" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="83.82" y="83.82"/>
-<pinref part="X1" gate="-1" pin="S"/>
+<label x="44.704" y="85.344" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="S"/>
 <wire x1="40.64" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="50.8" y="83.82"/>
-<label x="44.704" y="85.344" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
