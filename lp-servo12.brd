@@ -123,18 +123,18 @@
 <text x="34.29" y="38.735" size="1.4224" layer="21">STELLARIS</text>
 <text x="33.02" y="36.83" size="1.4224" layer="21">BOOSTERPACK</text>
 <text x="40.005" y="38.735" size="1.4224" layer="16" font="vector" ratio="12" rot="MR0">2013-01</text>
-<text x="53.34" y="10.16" size="1.27" layer="22" font="vector" rot="MR0">1. CONN X1 IS BATTERY INPUT
-   6-12V
-2. ONBOARD SUPPLY IS 5V/5A
-3. JP1 BRIDGED TO POWER
-   LAUNCHPAD+SERVOS
-4. JP1 OPEN TO POWER SERVOS
-   ONLY
-5. J10 FOR SEPARATE
-   LAUNCHPAD SUPPLY (5V)
-6. SxA/B &lt;-&gt; WIDE TIMER xA/B</text>
-<text x="52.705" y="29.21" size="1.27" layer="22" font="vector" rot="MR0">NOTES:
------</text>
+<text x="53.34" y="30.48" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">1. CONN X1 IS BATTERY INPUT</text>
+<text x="53.34" y="33.655" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">NOTES:</text>
+<text x="53.34" y="32.385" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">-----</text>
+<text x="50.8" y="28.575" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">6-12V</text>
+<text x="53.34" y="26.035" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">2. ONBOARD SUPPLY IS 5V/5A</text>
+<text x="53.34" y="23.495" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">3. JP1 BRIDGED TO POWER</text>
+<text x="50.8" y="21.59" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">LAUNCHPAD+SERVOS</text>
+<text x="53.34" y="19.05" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">4. JP1 OPEN TO POWER SERVOS</text>
+<text x="50.165" y="17.145" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">ONLY</text>
+<text x="53.34" y="14.605" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">5. J10 FOR SEPARATE</text>
+<text x="50.8" y="12.7" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">LAUNCHPAD SUPPLY (5V)</text>
+<text x="53.34" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">6. SxA/B &lt;-&gt; WIDE TIMER xA/B</text>
 </plain>
 <libraries>
 <library name="con-molex">
@@ -1610,10 +1610,4 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
