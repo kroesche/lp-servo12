@@ -2865,6 +2865,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </library>
 </libraries>
 <attributes>
+<attribute name="DATABASE" value="/Users/joe/Documents/Projects/tronics/boards/lp-servo12/bom/bomex-partsdb.txt"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -2883,94 +2884,334 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="MANF" value="Molex"/>
 <attribute name="MANF#" value="76650-0208"/>
 <attribute name="MOUSER#" value="538-76650-0208"/>
+<attribute name="PARTNO" value="KK-156-2-LOCK-RTANGLE"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
 <attribute name="MANF" value="Panasonic"/>
 <attribute name="MANF#" value="ERJ-6GEYJ221V"/>
 <attribute name="MOUSER#" value="667-ERJ-6GEYJ221V"/>
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
 </part>
-<part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
-<part name="J10" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="S4A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S4B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S2A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S2B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S3A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S3B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="J5" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
-<part name="S0A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S0B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S1A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S1B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S5A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="S5B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value=""/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
+<part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH">
+<attribute name="PARTNO" value="68002-202HLF"/>
+</part>
+<part name="J10" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH">
+<attribute name="PARTNO" value="68016-402"/>
+</part>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220">
+<attribute name="PARTNO" value="RES_220_20V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="S4A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S4B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S2A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S2B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S3A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S3B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="J5" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH">
+<attribute name="PARTNO" value="68002-202HLF"/>
+</part>
+<part name="S0A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S0B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S1A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S1B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S5A" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="S5B" library="SparkFun-Passives" deviceset="JUMPER-3" device="PTH" value="">
+<attribute name="PARTNO" value="68002-403HLF"/>
+</part>
+<part name="J1" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value="">
+<attribute name="PARTNO" value="68002-110HLF"/>
+</part>
+<part name="J3" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value="">
+<attribute name="PARTNO" value="68002-110HLF"/>
+</part>
+<part name="J2" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value="">
+<attribute name="PARTNO" value="68002-110HLF"/>
+</part>
+<part name="J4" library="SparkFun-Connectors" deviceset="M10" device="&quot;" value="">
+<attribute name="PARTNO" value="68002-110HLF"/>
+</part>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF">
+<attribute name="PARTNO" value="CAP_10u_20V_20PCT_1206"/>
+<attribute name="SIZE" value="(1206)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="TANT"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF">
+<attribute name="PARTNO" value="CAP_10u_20V_20PCT_1206"/>
+<attribute name="SIZE" value="(1206)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="TANT"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF">
+<attribute name="PARTNO" value="CAP_10u_20V_20PCT_1206"/>
+<attribute name="SIZE" value="(1206)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="TANT"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="U1" library="kroesche" deviceset="TPS54526" device="PWP"/>
+<part name="U1" library="kroesche" deviceset="TPS54526" device="PWP">
+<attribute name="PARTNO" value="TPS54526PWP"/>
+</part>
 <part name="L1" library="kroesche" deviceset="VISHAY-IHLP-3232DZ-11" device="" value="3.3uH">
+<attribute name="LOAD" value="10A"/>
 <attribute name="MANF#" value="IHLP3232DZER3R3M11"/>
 <attribute name="MOUSER#" value="70-IHLP3232DZER3R3M11"/>
+<attribute name="PARTNO" value="IHLP3232DZER3R3M11"/>
+<attribute name="TOL" value="20%"/>
 </part>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A3" device=""/>
-<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
-<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22pF"/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="1210" value="22uF"/>
-<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="1206" value="22uF"/>
-<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10nF"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="124K"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22.1K"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100K"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF">
+<attribute name="PARTNO" value="CAP_100n_25V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TC" value="X7R"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="25V"/>
+</part>
+<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22pF">
+<attribute name="PARTNO" value="CAP_22p_50V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TC" value="C0G"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="1210" value="22uF">
+<attribute name="PARTNO" value="CAP_22u_16V_10PCT_1210"/>
+<attribute name="SIZE" value="(1210)"/>
+<attribute name="TC" value="X5R"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="16V"/>
+</part>
+<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="1206" value="22uF">
+<attribute name="PARTNO" value="CAP_22u_16V_20PCT_1206"/>
+<attribute name="SIZE" value="(1206)"/>
+<attribute name="TC" value="X5R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="16V"/>
+</part>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10nF">
+<attribute name="PARTNO" value="CAP_10n_50V_10PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TC" value="X7R"/>
+<attribute name="TOL" value="10%"/>
+<attribute name="VOLT" value="50V"/>
+</part>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="124K">
+<attribute name="PARTNO" value="RES_124K_20V_1PCT_0805"/>
+<attribute name="RATE" value="1/8W"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22.1K">
+<attribute name="PARTNO" value="RES_22.1K_20V_1PCT_0805"/>
+<attribute name="RATE" value="1/8W"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100K">
+<attribute name="PARTNO" value="RES_100K_20V_1PCT_0805"/>
+<attribute name="RATE" value="1/8W"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-AnalogIC" deviceset="LMV358" device="">
 <attribute name="MANF" value="Texas Instruments"/>
 <attribute name="MANF#" value="LMV358QDR"/>
 <attribute name="MOUSER#" value="595-LMV358QDR"/>
+<attribute name="PARTNO" value="LMV358QDR"/>
 </part>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K">
+<attribute name="PARTNO" value="RES_22K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K">
+<attribute name="PARTNO" value="RES_22K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15K"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15K">
+<attribute name="PARTNO" value="RES_15K_20V_1PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="LOGO2" library="ohw-logo" deviceset="OSHW_LOGO_6MIL" device="X0200-NT"/>
+<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="PARTNO" value="CAP_1u_20V_20PCT_0805"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
+<part name="LOGO2" library="ohw-logo" deviceset="OSHW_LOGO_6MIL" device="X0200-NT">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2989,119 +3230,349 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="MANF" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANF#" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MOUSER#" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="38.1" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="X1" gate="-2" x="38.1" y="83.82" rot="MR0"/>
 <instance part="P+2" gate="1" x="78.74" y="149.86"/>
-<instance part="R1" gate="G$1" x="43.18" y="233.68">
+<instance part="R1" gate="G$1" x="43.18" y="233.68" smashed="yes">
 <attribute name="MANF" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANF#" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER#" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="39.37" y="228.092" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.942" y="228.092" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="235.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="230.378" size="1.778" layer="96"/>
+<attribute name="SIZE" x="43.18" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="STANDOFF1" gate="G$1" x="363.22" y="27.94"/>
-<instance part="STANDOFF2" gate="G$1" x="368.3" y="27.94"/>
-<instance part="STANDOFF3" gate="G$1" x="373.38" y="27.94"/>
-<instance part="STANDOFF4" gate="G$1" x="378.46" y="27.94"/>
-<instance part="JP1" gate="A" x="81.28" y="137.16" rot="R180"/>
-<instance part="J10" gate="A" x="27.94" y="139.7" rot="R90"/>
-<instance part="R2" gate="G$1" x="43.18" y="218.44"/>
-<instance part="R3" gate="G$1" x="43.18" y="203.2"/>
-<instance part="R4" gate="G$1" x="43.18" y="187.96"/>
-<instance part="R5" gate="G$1" x="43.18" y="172.72"/>
-<instance part="R6" gate="G$1" x="43.18" y="157.48"/>
-<instance part="R7" gate="G$1" x="177.8" y="233.68"/>
-<instance part="R8" gate="G$1" x="177.8" y="218.44"/>
-<instance part="R9" gate="G$1" x="177.8" y="203.2"/>
-<instance part="R10" gate="G$1" x="177.8" y="187.96"/>
-<instance part="R11" gate="G$1" x="177.8" y="172.72"/>
-<instance part="R12" gate="G$1" x="177.8" y="157.48"/>
-<instance part="S4A" gate="G$1" x="27.94" y="228.6" rot="R90"/>
-<instance part="S4B" gate="G$1" x="27.94" y="213.36" rot="R90"/>
-<instance part="S2A" gate="G$1" x="27.94" y="198.12" rot="R90"/>
-<instance part="S2B" gate="G$1" x="27.94" y="182.88" rot="R90"/>
-<instance part="S3A" gate="G$1" x="27.94" y="167.64" rot="R90"/>
-<instance part="S3B" gate="G$1" x="27.94" y="152.4" rot="R90"/>
-<instance part="J5" gate="A" x="66.04" y="233.68" rot="R270"/>
-<instance part="S0A" gate="G$1" x="193.04" y="233.68" rot="R270"/>
-<instance part="S0B" gate="G$1" x="193.04" y="218.44" rot="R270"/>
-<instance part="S1A" gate="G$1" x="193.04" y="203.2" rot="R270"/>
-<instance part="S1B" gate="G$1" x="193.04" y="187.96" rot="R270"/>
-<instance part="S5A" gate="G$1" x="193.04" y="172.72" rot="R270"/>
-<instance part="S5B" gate="G$1" x="193.04" y="157.48" rot="R270"/>
-<instance part="J1" gate="G$1" x="71.12" y="190.5" rot="R180"/>
-<instance part="J3" gate="G$1" x="73.66" y="190.5" rot="MR180"/>
-<instance part="J2" gate="G$1" x="139.7" y="190.5" rot="MR180"/>
-<instance part="J4" gate="G$1" x="137.16" y="190.5" rot="R180"/>
-<instance part="C1" gate="G$1" x="58.42" y="134.62"/>
-<instance part="C2" gate="G$1" x="93.98" y="134.62"/>
-<instance part="C3" gate="G$1" x="104.14" y="134.62"/>
-<instance part="C4" gate="G$1" x="68.58" y="132.08"/>
-<instance part="C5" gate="G$1" x="111.76" y="132.08"/>
-<instance part="C6" gate="G$1" x="119.38" y="132.08"/>
+<instance part="STANDOFF1" gate="G$1" x="363.22" y="27.94">
+<attribute name="BOM" x="363.22" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="STANDOFF2" gate="G$1" x="368.3" y="27.94">
+<attribute name="BOM" x="368.3" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="STANDOFF3" gate="G$1" x="373.38" y="27.94">
+<attribute name="BOM" x="373.38" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="STANDOFF4" gate="G$1" x="378.46" y="27.94">
+<attribute name="BOM" x="378.46" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP1" gate="A" x="81.28" y="137.16" rot="R180">
+<attribute name="PARTNO" x="81.28" y="137.16" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="J10" gate="A" x="27.94" y="139.7" rot="R90">
+<attribute name="PARTNO" x="27.94" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="43.18" y="218.44" smashed="yes">
+<attribute name="PARTNO" x="43.18" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.942" y="212.598" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="219.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="215.138" size="1.778" layer="96"/>
+<attribute name="TOL" x="43.18" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="43.18" y="203.2" smashed="yes">
+<attribute name="PARTNO" x="43.18" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="39.37" y="197.358" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="44.196" y="197.358" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="204.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="199.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="43.18" y="187.96" smashed="yes">
+<attribute name="PARTNO" x="43.18" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="39.37" y="182.118" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.434" y="182.118" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="189.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="184.658" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="43.18" y="172.72" smashed="yes">
+<attribute name="PARTNO" x="43.18" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="39.37" y="166.878" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.688" y="166.878" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="174.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="169.418" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="43.18" y="157.48" smashed="yes">
+<attribute name="PARTNO" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="39.37" y="151.638" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.688" y="151.638" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="158.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="154.178" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="177.8" y="233.68">
+<attribute name="PARTNO" x="177.8" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="177.8" y="218.44">
+<attribute name="PARTNO" x="177.8" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="177.8" y="203.2">
+<attribute name="PARTNO" x="177.8" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="177.8" y="187.96">
+<attribute name="PARTNO" x="177.8" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="177.8" y="172.72">
+<attribute name="PARTNO" x="177.8" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="177.8" y="157.48">
+<attribute name="PARTNO" x="177.8" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="177.8" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="177.8" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="177.8" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S4A" gate="G$1" x="27.94" y="228.6" rot="R90">
+<attribute name="PARTNO" x="27.94" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S4B" gate="G$1" x="27.94" y="213.36" rot="R90">
+<attribute name="PARTNO" x="27.94" y="213.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S2A" gate="G$1" x="27.94" y="198.12" rot="R90">
+<attribute name="PARTNO" x="27.94" y="198.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S2B" gate="G$1" x="27.94" y="182.88" rot="R90">
+<attribute name="PARTNO" x="27.94" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S3A" gate="G$1" x="27.94" y="167.64" rot="R90">
+<attribute name="PARTNO" x="27.94" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S3B" gate="G$1" x="27.94" y="152.4" rot="R90">
+<attribute name="PARTNO" x="27.94" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J5" gate="A" x="66.04" y="233.68" rot="R270">
+<attribute name="PARTNO" x="66.04" y="233.68" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="S0A" gate="G$1" x="193.04" y="233.68" rot="R270">
+<attribute name="PARTNO" x="193.04" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S0B" gate="G$1" x="193.04" y="218.44" rot="R270">
+<attribute name="PARTNO" x="193.04" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S1A" gate="G$1" x="193.04" y="203.2" rot="R270">
+<attribute name="PARTNO" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S1B" gate="G$1" x="193.04" y="187.96" rot="R270">
+<attribute name="PARTNO" x="193.04" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S5A" gate="G$1" x="193.04" y="172.72" rot="R270">
+<attribute name="PARTNO" x="193.04" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S5B" gate="G$1" x="193.04" y="157.48" rot="R270">
+<attribute name="PARTNO" x="193.04" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J1" gate="G$1" x="71.12" y="190.5" rot="R180">
+<attribute name="PARTNO" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J3" gate="G$1" x="73.66" y="190.5" rot="MR180">
+<attribute name="PARTNO" x="73.66" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="139.7" y="190.5" rot="MR180">
+<attribute name="PARTNO" x="139.7" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J4" gate="G$1" x="137.16" y="190.5" rot="R180">
+<attribute name="PARTNO" x="137.16" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="58.42" y="134.62">
+<attribute name="PARTNO" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="93.98" y="134.62">
+<attribute name="PARTNO" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="104.14" y="134.62">
+<attribute name="PARTNO" x="104.14" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="104.14" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="104.14" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="104.14" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="104.14" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="68.58" y="132.08">
+<attribute name="PARTNO" x="68.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="68.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="68.58" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="68.58" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="111.76" y="132.08">
+<attribute name="PARTNO" x="111.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="111.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="111.76" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="111.76" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="119.38" y="132.08">
+<attribute name="PARTNO" x="119.38" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="119.38" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="119.38" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="119.38" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY6" gate="GND" x="58.42" y="124.46"/>
 <instance part="SUPPLY7" gate="GND" x="68.58" y="124.46"/>
 <instance part="SUPPLY8" gate="GND" x="93.98" y="124.46"/>
 <instance part="SUPPLY9" gate="GND" x="104.14" y="124.46"/>
 <instance part="SUPPLY10" gate="GND" x="111.76" y="124.46"/>
 <instance part="SUPPLY11" gate="GND" x="119.38" y="124.46"/>
-<instance part="U1" gate="G$1" x="101.6" y="73.66"/>
+<instance part="U1" gate="G$1" x="101.6" y="73.66">
+<attribute name="PARTNO" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="L1" gate="G$1" x="147.32" y="76.2" smashed="yes">
 <attribute name="NAME" x="145.796" y="80.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.256" y="73.406" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="LOAD" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="C7" gate="G$1" x="124.46" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.92" y="83.947" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="124.968" y="82.169" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="124.46" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="124.46" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="124.46" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="124.46" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TC" x="124.46" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="165.1" y="68.58" smashed="yes">
 <attribute name="NAME" x="166.624" y="71.501" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.624" y="66.421" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="165.1" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="50.8" y="68.58"/>
-<instance part="C10" gate="G$1" x="185.42" y="60.96"/>
-<instance part="C11" gate="G$1" x="60.96" y="58.42"/>
-<instance part="C12" gate="G$1" x="81.28" y="58.42"/>
+<instance part="C9" gate="G$1" x="50.8" y="68.58">
+<attribute name="PARTNO" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="185.42" y="60.96">
+<attribute name="PARTNO" x="185.42" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="185.42" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="185.42" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="60.96" y="58.42">
+<attribute name="PARTNO" x="60.96" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="60.96" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="60.96" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="60.96" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="81.28" y="58.42">
+<attribute name="PARTNO" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R13" gate="G$1" x="175.26" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.038" y="68.8086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.53" y="66.04" size="1.778" layer="96"/>
+<attribute name="TOL" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="RATE" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="175.26" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="175.26" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.292" y="52.8066" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.038" y="50.038" size="1.778" layer="96"/>
+<attribute name="TOL" x="175.26" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="175.26" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="RATE" x="175.26" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="175.26" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="175.26" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R15" gate="G$1" x="68.58" y="71.12"/>
+<instance part="R15" gate="G$1" x="68.58" y="71.12">
+<attribute name="PARTNO" x="68.58" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="RATE" x="68.58" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="68.58" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="68.58" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="68.58" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY12" gate="GND" x="185.42" y="40.64"/>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="40.64"/>
 <instance part="U2" gate="G$1" x="231.14" y="165.1">
 <attribute name="MANF" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="MANF#" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER#" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="231.14" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="G$2" x="281.94" y="162.56"/>
 <instance part="R16" gate="G$1" x="274.32" y="177.8" smashed="yes">
 <attribute name="NAME" x="271.526" y="179.5526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="271.78" y="174.498" size="1.778" layer="96"/>
+<attribute name="TOL" x="271.78" y="171.958" size="1.778" layer="96"/>
+<attribute name="VOLT" x="274.32" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="274.32" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="274.32" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="259.08" y="165.1" smashed="yes">
 <attribute name="NAME" x="253.238" y="166.5986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="259.334" y="166.624" size="1.778" layer="96"/>
+<attribute name="TOL" x="261.874" y="162.56" size="1.778" layer="96"/>
+<attribute name="VOLT" x="259.08" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="259.08" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="259.08" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="259.08" y="160.02" smashed="yes">
 <attribute name="NAME" x="253.492" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="259.334" y="156.464" size="1.778" layer="96"/>
+<attribute name="TOL" x="259.334" y="153.924" size="1.778" layer="96"/>
+<attribute name="VOLT" x="259.08" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="259.08" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="259.08" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="266.7" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="268.224" y="153.1366" size="1.778" layer="95"/>
 <attribute name="VALUE" x="268.224" y="150.114" size="1.778" layer="96"/>
+<attribute name="TOL" x="268.224" y="147.574" size="1.778" layer="96"/>
+<attribute name="VOLT" x="266.7" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="266.7" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="266.7" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="281.94" y="139.7"/>
 <instance part="R20" gate="G$1" x="215.9" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="209.804" y="170.9166" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.804" y="168.148" size="1.778" layer="96"/>
+<attribute name="TOL" x="210.058" y="165.354" size="1.778" layer="96"/>
+<attribute name="VOLT" x="215.9" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="215.9" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="215.9" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="215.9" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.058" y="155.4226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.55" y="152.654" size="1.778" layer="96"/>
+<attribute name="TOL" x="209.55" y="149.86" size="1.778" layer="96"/>
+<attribute name="VOLT" x="215.9" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="215.9" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="215.9" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="215.9" y="144.78"/>
 <instance part="P+3" gate="1" x="215.9" y="180.34" smashed="yes">
@@ -3110,9 +3581,21 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="P+4" gate="1" x="231.14" y="177.8" smashed="yes">
 <attribute name="VALUE" x="232.918" y="176.53" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="241.3" y="154.94"/>
-<instance part="C14" gate="G$1" x="302.26" y="152.4"/>
-<instance part="LOGO2" gate="G$1" x="193.04" y="111.76"/>
+<instance part="C13" gate="G$1" x="241.3" y="154.94">
+<attribute name="PARTNO" x="241.3" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="241.3" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="241.3" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="241.3" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="302.26" y="152.4">
+<attribute name="PARTNO" x="302.26" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="302.26" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="302.26" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="302.26" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LOGO2" gate="G$1" x="193.04" y="111.76">
+<attribute name="BOM" x="193.04" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

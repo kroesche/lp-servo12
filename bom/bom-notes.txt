@@ -1,0 +1,60 @@
+The script bom-ex.ulp was used to generate the BOM.
+
+Files:
+-----
+lp-servo12_MouserOrder.txt - this file contains just quantities and mouser
+part numbers
+
+lp-servo12_GenericPartsOrder.txt - this file contains all of the BOM columns
+that are produced by the bom-ex script, many of which are not useful.  This is
+a tab-delimited file and you should be able to open it in a spreadsheet where
+you can manipulate the columns to organize the data how you like.
+
+bomex-partsdb.numbers - the original spreadsheet used to create the partsdb
+used by bom-ex.
+
+bomex-partsdb.txt - the partsdb from the spreadsheet, pasted into a text file.
+This is the format needed by bom-ex.
+
+Column meanings:
+----------------
+Mfg Part Num - this is actually the schematic attribute PARTNO and does not
+necessarily represent the actual manufacturers part number.
+
+Mfg Name - the name of the manufacturer of the part.  Of course for resistors
+and capacitors, many manufacturers could be used.
+
+VID - this is how bom-ex indicates the vendor - in this case ME means Mouser
+
+Vendor Part Num - the actual part number to use for ordering from the vendor,
+in this case Mouser
+
+Description - a description of the part that is in the Vendor Part Num column
+
+Customer Ref - not meaningful
+
+Qty-1 - the number of parts to order for one board
+
+Qty-5/Qty-25 - indicating number of parts to order for bulk orders (not used)
+
+Part References - the schematic references for the parts
+
+Value - the part value (if any) taken from the schematic
+
+OTHER NOTES:
+-----------
+The 0.1in headers to not need to be ordered as discrete parts as shown in the
+BOM list.  You can order the large length breakaway headers and cut them to the
+length you ned.
+
+The KK-156 battery connector (X1) could also be ordered as a kit that includes
+the board header and the wire side housing and pins.  There is a kit for this,
+p/n 76650-02208.  See also molexkits.com
+
+The KK-156 (X1) connector specified is right angle but this could be replaced with
+a straight connector instead.
+
+The header J10 is optional.  This is not needed if you are not going to power
+the launchpad separately from the servos.  Likewise JP1 does not need to be
+populated if you want to keep the servo and launchpad supplies separate.
+
