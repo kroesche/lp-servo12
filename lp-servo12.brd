@@ -135,6 +135,12 @@
 <text x="53.34" y="14.605" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">5. J10 FOR SEPARATE</text>
 <text x="50.8" y="12.7" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">LAUNCHPAD SUPPLY (5V)</text>
 <text x="53.34" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="top-left">6. SxA/B &lt;-&gt; WIDE TIMER xA/B</text>
+<text x="0" y="-7.62" size="1.27" layer="51" font="vector">Copyright (c) 2013 by Joe Kroesche (kroesche.org)
+All rights reserved.</text>
+<text x="0" y="-17.78" size="1.27" layer="51" font="vector">This work is licensed under the
+Creative Commons Attribution 3.0 Unported License.
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by/3.0/.</text>
 </plain>
 <libraries>
 <library name="con-molex">
@@ -1796,4 +1802,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
