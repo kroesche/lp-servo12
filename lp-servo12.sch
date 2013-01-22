@@ -3058,8 +3058,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="MOUSER#" value="595-LMV358QDR"/>
 <attribute name="PARTNO" value="LMV358QDR"/>
 </part>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K">
-<attribute name="PARTNO" value="RES_22K_20V_1PCT_0805"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="30K">
+<attribute name="PARTNO" value="RES_30K_20V_1PCT_0805"/>
 <attribute name="SIZE" value="(0805)"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
@@ -3070,27 +3070,27 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
 </part>
-<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="30K">
+<attribute name="PARTNO" value="RES_30K_20V_1PCT_0805"/>
 <attribute name="SIZE" value="(0805)"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
 </part>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22K">
-<attribute name="PARTNO" value="RES_22K_20V_1PCT_0805"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
 <attribute name="SIZE" value="(0805)"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15K">
+<attribute name="PARTNO" value="RES_15K_20V_1PCT_0805"/>
 <attribute name="SIZE" value="(0805)"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
 </part>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15K">
-<attribute name="PARTNO" value="RES_15K_20V_1PCT_0805"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="PARTNO" value="RES_10K_20V_1PCT_0805"/>
 <attribute name="SIZE" value="(0805)"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VOLT" value="20V"/>
