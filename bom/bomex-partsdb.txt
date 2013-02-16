@@ -11,7 +11,7 @@ RES_220_20V_10PCT_0805	Panasonic	ME	667ERJ-6GEYJ221V	Resistor, 220ohms, 5%, 150V
 68002-202HLF	FCI	ME	649-68002-202HLF	Header, 0.1in, 2 pos, thru-hole	
 68002-403HLF	FCI	ME	649-68002-403HLF	Header, 0.1in, 3 pos, thru-hole	
 LMV358QDR	Texas Instruments	ME	595-LMV358QDR	Dual op-amp, low voltage, rail-to-rail	
-IHLP3232DZER3R3M11	Vishay Dale	ME	70-IHLP3232DZER3R3M11	Inductor, 3.3uH, 20%, high current, low profile, 9.7A, 14.9mohm
+IHLP3232DZER3R3M11	Vishay Dale	ME	70-IHLP3232DZER3R3M1	Inductor, 3.3uH, 20%, high current, low profile, 9.7A, 14.9mohm
 CAP_10u_20V_20PCT_1206	TDK	ME	810-C3216X7R1V106M	Capacitor, 10uF, ceramic, 20%, 35V, 1206, X7R	
 RES_10K_20V_1PCT_0805	Bourns	ME	652-CR0805FX-1002ELF	Resistor, 10K, 1%, 150V, 1/8W, 0805	
 CAP_1u_20V_20PCT_0805	Murata	ME	81-GRM21BR71E105KA9K	Capacitor, 1uF, ceramic, 10%, 25V, 0805, X7R	

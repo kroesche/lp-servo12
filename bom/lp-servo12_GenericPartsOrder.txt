@@ -5,7 +5,7 @@ Mfg Part Num	Mfg Name	VID	Vendor Part Num	Description	Customer Ref	Qty-1	Qty-5	Q
 68016-402	FCI	ME	649-68016-402	Header, 0.1in, 2 pos, thru-hole, right-angle	*	1	5	25	"J10"	
 KK-156-2-LOCK-RTANGLE	Molex	ME	538-26-61-5020	Molex, KK .156, Rt ang, 2-pin, lock (0026615020)	*	1	5	25	"X1"	
 CAP_1u_20V_20PCT_0805	Murata	ME	81-GRM21BR71E105KA9K	Capacitor, 1uF, ceramic, 10%, 25V, 0805, X7R	*	6	30	150	"C4, C5, C6, C11, C13, C14"	1uF
-IHLP3232DZER3R3M11	Vishay Dale	ME	70-IHLP3232DZER3R3M11	Inductor, 3.3uH, 20%, high current, low profile, 9.7A, 14.9mohm	*	1	5	25	"L1"	3.3uH
+IHLP3232DZER3R3M11	Vishay Dale	ME	70-IHLP3232DZER3R3M1	Inductor, 3.3uH, 20%, high current, low profile, 9.7A, 14.9mohm	*	1	5	25	"L1"	3.3uH
 RES_10K_20V_1PCT_0805	Bourns	ME	652-CR0805FX-1002ELF	Resistor, 10K, 1%, 150V, 1/8W, 0805	*	3	15	75	"R17, R19, R21"	10K
 CAP_10n_50V_10PCT_0805	Kemet	ME	80-C0805C103K5R	Capacitor, 10nF, 10%, 50V, 0805, X7R	*	1	5	25	"C12"	10nF
 CAP_10u_20V_20PCT_1206	TDK	ME	810-C3216X7R1V106M	Capacitor, 10uF, ceramic, 20%, 35V, 1206, X7R	*	3	15	75	"C1, C2, C3"	10uF
