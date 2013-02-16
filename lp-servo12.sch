@@ -149,12 +149,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 </packages>
 <symbols>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+5V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -163,19 +157,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+5V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -2778,7 +2759,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <parts>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
@@ -3114,6 +3094,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100K">
+<attribute name="PARTNO" value="RES_100K_20V_1PCT_0805"/>
+<attribute name="RATE" value="1/8W"/>
+<attribute name="SIZE" value="(0805)"/>
+<attribute name="TOL" value="1%"/>
+<attribute name="VOLT" value="20V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3146,14 +3133,11 @@ All rights reserved.</text>
    input is 6-12V (2S lipo).
 4.  Battery voltage measurement is scaled so that
    6V reads 0 and 9V reads full scale.</text>
-<text x="261.62" y="7.62" size="3.048" layer="97" font="vector">1.0</text>
+<text x="261.62" y="7.62" size="3.048" layer="97" font="vector">1.1</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="88.9" y="152.4"/>
 <instance part="SUPPLY2" gate="GND" x="139.7" y="114.3"/>
-<instance part="+3V1" gate="G$1" x="43.18" y="182.88" smashed="yes">
-<attribute name="VALUE" x="43.942" y="183.134" size="1.778" layer="96"/>
-</instance>
 <instance part="P+1" gate="1" x="88.9" y="182.88"/>
 <instance part="SUPPLY3" gate="GND" x="17.78" y="99.06"/>
 <instance part="SUPPLY4" gate="GND" x="172.72" y="114.3"/>
@@ -3528,6 +3512,15 @@ All rights reserved.</text>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
+<instance part="R22" gate="G$1" x="45.72" y="68.58" smashed="yes">
+<attribute name="PARTNO" x="45.72" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="RATE" x="45.72" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="45.72" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="45.72" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="45.72" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="40.386" y="65.2526" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="65.278" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3831,14 +3824,6 @@ All rights reserved.</text>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="43.18" y1="175.26" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
@@ -4110,15 +4095,20 @@ All rights reserved.</text>
 <pinref part="U1" gate="G$1" pin="VIN1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="71.12" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VIN2"/>
 <wire x1="63.5" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="68.58" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 <junction x="60.96" y="71.12"/>
-<label x="21.844" y="72.644" size="1.778" layer="95"/>
+<label x="44.704" y="72.644" size="1.778" layer="95"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="38.1" y="71.12"/>
 <pinref part="X1" gate="-2" pin="S"/>
-<wire x1="17.78" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="27.94" y="71.12"/>
 </segment>
 <segment>
@@ -4227,9 +4217,32 @@ All rights reserved.</text>
 <wire x1="251.46" y1="83.82" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="EN"/>
+<wire x1="63.5" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,63.5,68.58,U1,VIN2,VBAT,,,"/>
+<approved hash="104,1,63.5,71.12,U1,VIN1,VBAT,,,"/>
+<approved hash="104,1,91.44,71.12,U1,VO,SERVO_V,,,"/>
+<approved hash="104,1,81.28,40.64,U1,PGND2,GND,,,"/>
+<approved hash="104,1,83.82,40.64,U1,PGND1,GND,,,"/>
+<approved hash="104,1,76.2,40.64,U1,PAD,GND,,,"/>
+<approved hash="104,1,193.04,91.44,U2G$1,+V,+5V,,,"/>
+<approved hash="115,1,14.3384,66.04,X1,,,,,"/>
+<approved hash="115,1,65.6505,104.817,JP1,,,,,"/>
+<approved hash="115,1,13.3769,107.069,J10,,,,,"/>
+<approved hash="115,1,49.3045,200.271,J5,,,,,"/>
+<approved hash="115,1,139.596,107.846,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
