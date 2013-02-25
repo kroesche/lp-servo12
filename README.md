@@ -22,7 +22,7 @@ The board is intended to be powered from a 2-cell LiPo battery pack or similar a
 
 Battery Voltage Measurement
 ---------------------------
-There is a circuit to allow for measurement of the battery supply voltage using the Stellaris A/D convertor.  It uses analog input signal AIN2.  It is scaled so that 3V supply reads 0 and 4.5V supply reads full scale.
+There is a circuit to allow for measurement of the battery supply voltage using the Stellaris A/D convertor.  It uses analog input signal AIN2.  It is scaled so that 6V supply reads 0 and 9V supply reads full scale.
 
 Connectors
 ----------
